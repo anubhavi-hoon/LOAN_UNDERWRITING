@@ -22,7 +22,7 @@ export const pipelineSteps = [
     id: 3,
     icon: "extract",
     label: "Extract",
-    badge: "pdfplumber + Claude",
+    badge: "OCR + Claude",
     description: "Type-specific prompts extract structured JSON per document.",
     color: "accent",
   },
@@ -141,7 +141,7 @@ export const extractionFlow = [
     id: 1,
     title: "PDF parsed to raw text",
     description: "Binary document converted to searchable text layer.",
-    badge: "pdfplumber",
+    badge: "OCR Engine",
     badgeStyle: "code",
   },
   {
@@ -353,7 +353,7 @@ export const enterpriseCards = [
 export const techStack = [
   "Python",
   "Claude API (Sonnet)",
-  "pdfplumber",
+  "OCR Engine",
   "Streamlit",
   "FastAPI",
   "Pandas",
